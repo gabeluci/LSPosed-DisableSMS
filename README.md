@@ -7,11 +7,14 @@ This LSPosed module will tell Google Messages that your device does not support
 sending or receiving SMS. That will make Google Messages think it's a wifi-only
 tablet and prompt you to pair with another phone.
 
+**This will not combine SMS messages from two phones.** One phone will be the
+primary, where all messages are sent and received.
+
 ## Why?
 
 I made this for when I go on a trip and don't want to take my primary phone with
 me out of the country. I can leave my primary phone plugged in at home and use
-this to pair a second phone that I take with me.
+this module to pair a second phone that I take with me.
 
 ## Better than Google Messages for Web
 
