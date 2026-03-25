@@ -43,3 +43,21 @@ and the newer [`TelephonyManager.isDeviceSmsCapable()`](https://developer.androi
 and always returns `false`.
 
 If you find a use case other than Google Messages device pairing, let me know!
+
+## Installation
+
+1. Make sure the prerequisites are installed:
+
+    - [Magisk](https://github.com/topjohnwu/Magisk/)
+    - [LSPosed](https://github.com/JingMatrix/LSPosed)
+
+2. Download [DisableSMS.apk](https://github.com/gabeluci/LSPosed-DisableSMS/releases/latest/download/DisableSMS.apk) and install it.
+3. LSPosed should prompt you to enable it. Enable it and select the "Messages"
+app from the app list (it will be listed first if it's installed).
+4. If you opened the Google Messages app before installing this module, you may
+need to delete the app data for it.
+5. Open Google Messages and follow the instructions to pair with your primary phone.
+
+Apparently there's a way to run LSPosed modules without root (so I've read).
+I've never done that and I don't know if this module would work without root.
+If you try it, let me know how it goes.
