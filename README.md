@@ -16,6 +16,11 @@ I made this for when I go on a trip and don't want to take my primary phone with
 me out of the country. I can leave my primary phone plugged in at home and use
 this module to pair a second phone that I take with me.
 
+### Warning
+Make sure your primary phone will not automatically restart, since you will stop
+getting messages until the phone is unlocked. In Settings, search for "restart"
+and disable every setting that you find. On my Samsung phone, there were 4 settings.
+
 ## Better than Google Messages for Web
 
 Google Messages in "tablet" mode is really just a Progressive Web App (PWA)
